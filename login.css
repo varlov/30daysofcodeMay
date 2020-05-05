@@ -1,0 +1,93 @@
+body {font-family: Arial, Helvetica, sans-serif;
+  background-image: url(undraw_social_distancing_2g0u.png);
+
+}
+* {box-sizing:border-box;
+  /* border-radius: 50px; */
+
+}
+.h1{
+  color:white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 0px 0 22px 0;
+  display: inline-block;
+  /* border-radius: 7
+  0px; */
+  background: white;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: white;
+  outline: none;
+}
+
+button {
+  background-color:rgb(24, 31, 63);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn, .signupbtn {
+  float: center;
+  width: 30%;
+}
+
+.container {
+  padding: 20px;
+  width: 100%;
+  align-content: center;
+
+
+}
+
+.modal-container{
+  background-color:#646e8bf8;
+  margin: 10% auto 20% auto; 
+  width: 40%; 
+  min-width: 300px;
+  max-width: 400px;
+  border-radius: 10px; 
+
+}
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+  .cancelbtn, .signupbtn {
+     width: 40%;
+  }
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
